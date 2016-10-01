@@ -1,0 +1,86 @@
+
+
+html, body {
+    height: 100%;
+}
+.film-cover, .web-cover {
+    flex: 1;
+    height: 100%;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+.cover:hover {
+    animation-name: example;
+    animation-duration: 4s;
+    /*transform:rotate(30deg);*/
+}
+
+
+@keyframes showSub {
+    from {display: none;}
+    to {display: block;}
+}
+
+.cover:hover .sub-text {
+    display: block;
+    animation-name: showSub;
+    animation-duration: 4s;
+}
+.cover:hover .text {
+    color: rgba(255,255,255, 1);
+}
+
+
+.block {
+    display: flex;
+    height: 40%;
+}
+
+.text-block {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    max-width: 80%;
+}
+.text, .sub-text {
+    color: rgba(255,255,255,0.7);
+    font-size: 5em;
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+.sub-text {
+    font-size: 1em;
+    color: rgba(255,255,255,0.5);
+    padding-top: 18px;
+    display: none;
+}
+
+.film-cover {
+    background: url('../images/alley.jpeg');
+}
+.web-cover {
+    background: url('../images/code.jpeg');
+}
+.cover {
+    background-size: cover;
+    position: relative;
+}
+/* need to put below XX-cover */
+
+.film-in-cover, .web-in-cover {
+    height: 100%;
+    background: linear-gradient(135deg, #7baed4, #feafbc);
+    opacity: 0.75;
+}
+
+.film-in-cover, .web-in-cover {
+    height: 100%;
+    background: linear-gradient(135deg, #7baed4, #feafbc);
+    opacity: 0.75;
+}
+
+
