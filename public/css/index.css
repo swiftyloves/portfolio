@@ -1,23 +1,13 @@
 
-
+@font-face {
+        font-family: 'Sans-Serif'
+    }
+    
 html, body {
     height: 100%;
+        font-family: 'Sans-Serif'
+    
 }
-.film-cover, .web-cover {
-    flex: 1;
-    height: 100%;
-}
-
-@keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-}
-.cover:hover {
-    animation-name: example;
-    animation-duration: 4s;
-    /*transform:rotate(30deg);*/
-}
-
 
 @keyframes showSub {
     from {display: none;}
@@ -25,18 +15,20 @@ html, body {
 }
 
 .cover:hover .sub-text {
-    display: block;
-    animation-name: showSub;
-    animation-duration: 4s;
+    color: rgba(255,255,255, 0.85);
 }
 .cover:hover .text {
     color: rgba(255,255,255, 1);
 }
+.cover:hover .in-cover{
 
+}
 
-.block {
-    display: flex;
-    height: 40%;
+.h-30per {
+    height: 30%;
+}
+.h-100per {
+    height: 100%;
 }
 
 .text-block {
@@ -47,23 +39,20 @@ html, body {
 }
 .text, .sub-text {
     color: rgba(255,255,255,0.7);
-    font-size: 5em;
     font-family: 'Lato';
     font-weight: 300;
 }
 
 .sub-text {
-    font-size: 1em;
     color: rgba(255,255,255,0.5);
-    padding-top: 18px;
-    display: none;
 }
 
+/* Background */
 .film-cover {
-    background: url('../images/alley.jpeg');
+    background: url('../images/alice-cover.png');
 }
 .web-cover {
-    background: url('../images/code.jpeg');
+    background: url('../images/public.jpeg');
 }
 .cover {
     background-size: cover;
@@ -73,14 +62,25 @@ html, body {
 
 .film-in-cover, .web-in-cover {
     height: 100%;
-    background: linear-gradient(135deg, #7baed4, #feafbc);
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.web-in-cover {
+    background: linear-gradient(135deg, #7baed4, #feafbc);    
     opacity: 0.75;
 }
-
-.film-in-cover, .web-in-cover {
-    height: 100%;
-    background: linear-gradient(135deg, #7baed4, #feafbc);
-    opacity: 0.75;
+.film-in-cover {
+    background: linear-gradient(135deg, #86d665, #ff5858);
+    opacity: 0.8;
 }
 
 
+/*@keyframes example {
+    from {background-size: 100%;}
+    to {background-size: 150%;}
+}
+.cover{
+    animation-name: example;
+    animation-duration: 4s;
+}*/
