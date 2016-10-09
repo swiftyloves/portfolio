@@ -25,7 +25,7 @@ html, body {
 }
 
 .h-30per {
-    height: 30%;
+    height: 33%;
 }
 .h-100per {
     height: 100%;
@@ -54,13 +54,16 @@ html, body {
 .web-cover {
     background: url('../images/public.jpeg');
 }
+.graphics-cover {
+    background: url('../images/public.jpeg');
+}
 .cover {
     background-size: cover;
     position: relative;
 }
 /* need to put below XX-cover */
 
-.film-in-cover, .web-in-cover {
+.in-cover {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -74,7 +77,21 @@ html, body {
     background: linear-gradient(135deg, #86d665, #ff5858);
     opacity: 0.8;
 }
+.graphics-in-cover {
+    background: linear-gradient(135deg, #92e0e8, #ff589d);
+    opacity: 0.8;
+}
 
+.self {
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #9c9c9c;
+}
+.sub-self-text {
+    font-family: Dosis, arial, sans-serif;
+    letter-spacing: 0.2em;
+    color: rgba(128, 128, 128, 0.38);
+}
 
 /*@keyframes example {
     from {background-size: 100%;}
