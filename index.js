@@ -14,6 +14,12 @@ app.get('/film', function(req, res) {
 app.get('/website', function(req, res) {
     res.sendFile(path.join(__dirname+'/website.html'));
 });
+app.get('/graphics', function(req, res) {
+    res.sendFile(path.join(__dirname+'/graphics.html'));
+});
+app.get('/game', function(req, res) {
+    res.sendFile(path.join(__dirname+'/game.html'));
+});
 
 app.listen(process.env.PORT || 3000, function(){
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);

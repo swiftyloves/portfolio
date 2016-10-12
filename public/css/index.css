@@ -55,7 +55,7 @@ html, body {
     background: url('../images/public.jpeg');
 }
 .graphics-cover {
-    background: url('../images/public.jpeg');
+    background: url('../images/graphics/2.jpg');
 }
 .cover {
     background-size: cover;
@@ -78,7 +78,7 @@ html, body {
     opacity: 0.8;
 }
 .graphics-in-cover {
-    background: linear-gradient(135deg, #92e0e8, #ff589d);
+    background: linear-gradient(135deg, #ffb100, #36ecff);
     opacity: 0.8;
 }
 
