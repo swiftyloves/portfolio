@@ -22,6 +22,8 @@
     .mb-80 { margin-bottom: 40px; }
     .mb-40 { margin-bottom: 20px; }
     .mt-80 { margin-top: 40px; }
+    .mb-20 { margin-bottom: 10px; }
+    .mt-20 { margin-top: 10px; }
 }
 .pos-rel{
     position: relative;
@@ -31,6 +33,7 @@
 .mb-40 { margin-bottom: 40px; }
 .mb-20 { margin-bottom: 20px; }
 .mt-80 { margin-top: 80px; }
+.mt-20 { margin-top: 20px; }
 
 .cate {
     margin-top: 0;

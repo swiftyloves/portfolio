@@ -52,10 +52,16 @@ html, body {
     background: url('../images/alice-cover.png');
 }
 .web-cover {
-    background: url('../images/public.jpeg');
+    background: url('../images/website.jpeg');
 }
 .graphics-cover {
     background: url('../images/graphics/2.jpg');
+}
+.game-cover {
+    background: url('../images/game/20.jpg');
+}
+.resume-cover {
+    background: url('../images/document.jpeg');
 }
 .cover {
     background-size: cover;
@@ -79,6 +85,22 @@ html, body {
 }
 .graphics-in-cover {
     background: linear-gradient(135deg, #ffb100, #36ecff);
+    opacity: 0.8;
+}
+.game-in-cover {
+    background: linear-gradient(135deg, #c577ca, #ffb458);
+    opacity: 0.8;
+}
+.resume-in-cover {
+    background: linear-gradient(135deg, #ecb9da, #ccc178);
+    opacity: 0.8;
+}
+.blank-in-cover {
+    background: linear-gradient(135deg, #ffd0ef, #c8ffb1);
+    opacity: 0.8;
+}
+.interval-in-cover {
+    background: #e8dbdb;
     opacity: 0.8;
 }
 
