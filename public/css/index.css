@@ -36,6 +36,12 @@ html, body {
     left: 10%;
     top: 40%;
     max-width: 80%;
+    margin: auto;
+}
+.self-block {
+    position: initial;
+    width: 350px;
+    padding: 50px;
 }
 .text, .sub-text {
     color: rgba(255,255,255,0.7);
@@ -48,6 +54,12 @@ html, body {
 }
 
 /* Background */
+.ceremony-cover {
+    background: url('../images/cere/ceremony-preview.png');
+}
+.makerspace-cover {
+    background: url('../images/makerspace.jpg');
+}
 .film-cover {
     background: url('../images/alice-cover.png');
 }
@@ -108,6 +120,7 @@ html, body {
     font-family: 'Lato';
     font-weight: 300;
     color: #9c9c9c;
+    text-align: center;
 }
 .sub-self-text {
     font-family: Dosis, arial, sans-serif;
