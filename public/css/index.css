@@ -14,6 +14,9 @@ html, body {
     to {display: block;}
 }
 
+.cover:hover {
+    cursor: pointer;
+}
 .cover:hover .sub-text {
     color: rgba(255,255,255, 0.85);
 }
@@ -38,15 +41,28 @@ html, body {
     max-width: 80%;
     margin: auto;
 }
-.self-block {
+.title-block {
     position: initial;
-    width: 350px;
-    padding: 50px;
+    width: 750px;
+    padding-top: 50px;
 }
 .text, .sub-text {
     color: rgba(255,255,255,0.7);
     font-family: 'Lato';
     font-weight: 300;
+}
+.text {
+    color: rgba(255,255,255,1);
+    font-size: 26px;
+}
+.self-block {
+    max-width: 500px;
+    padding-top: 50px;
+    margin: auto;
+}
+.copyright {
+    text-align: center;
+    color: gray;
 }
 
 .sub-text {
@@ -78,6 +94,7 @@ html, body {
 .cover {
     background-size: cover;
     position: relative;
+    height: 200px;
 }
 /* need to put below XX-cover */
 
@@ -87,20 +104,30 @@ html, body {
     position: absolute;
     left: 0;
 }
+.cere-in-cover {
+    /*background: linear-gradient(135deg, #7baed4, #feafbc);*/
+    background: #7baed4;    
+    opacity: 0.8;
+}
+.make-in-cover {
+    background: #bb91b3;
+    opacity: 0.8;
+}
 .web-in-cover {
-    background: linear-gradient(135deg, #7baed4, #feafbc);    
-    opacity: 0.75;
+    background: #b0d0b0;
+    opacity: 0.8;
 }
 .film-in-cover {
-    background: linear-gradient(135deg, #86d665, #ff5858);
+    /*background: linear-gradient(135deg, #6092b7, #e47e8f);*/
+    background: #b18a54;
     opacity: 0.8;
 }
 .graphics-in-cover {
-    background: linear-gradient(135deg, #ffb100, #36ecff);
+    background: #9e86a9;
     opacity: 0.8;
 }
 .game-in-cover {
-    background: linear-gradient(135deg, #c577ca, #ffb458);
+    background: #a2a271;
     opacity: 0.8;
 }
 .resume-in-cover {
@@ -116,6 +143,12 @@ html, body {
     opacity: 0.8;
 }
 
+
+.about-me {overflow: hidden;}
+.avator {
+    border-radius: 50%;
+    width: 150px;
+}
 .self {
     font-family: 'Lato';
     font-weight: 300;
@@ -123,9 +156,36 @@ html, body {
     text-align: center;
 }
 .sub-self-text {
-    font-family: Dosis, arial, sans-serif;
+    font-family: 'Dosis', arial, sans-serif;
     letter-spacing: 0.2em;
     color: rgba(128, 128, 128, 0.38);
+    text-align: center;
+}
+.sub-self-text-des {
+    font-family: times, sans-serif;
+    color: rgba(128, 128, 128, 0.5);
+    line-height: 1.5em; 
+    font-size: 17px;
+    padding-top: 25px;
+}
+.designer-block {
+    background: rgba(255, 226, 165, 0.2);
+    padding: 10px;
+    color: gray;
+}
+.engineer-block {
+    background: rgba(213, 238, 255, 0.4);
+    padding: 10px;
+    color: gray;
+}
+.designer-block, .engineer-block{
+    margin-bottom: -99999px;
+    padding-bottom: 100026px;
+    text-align: justify;
+}
+
+.about-me-subtitle {
+
 }
 
 /*@keyframes example {
