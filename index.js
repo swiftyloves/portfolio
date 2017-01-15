@@ -7,9 +7,15 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname+'/index.html'));
 });
+app.get('/index2', function(req, res) {
+    res.sendFile(path.join(__dirname+'/index2.html'));
+});
 
 app.get('/ceremony', function(req, res) {
     res.sendFile(path.join(__dirname+'/ceremony.html'));
+});
+app.get('/makerspace', function(req, res) {
+    res.sendFile(path.join(__dirname+'/makerspace.html'));
 });
 app.get('/film', function(req, res) {
     res.sendFile(path.join(__dirname+'/film.html'));
