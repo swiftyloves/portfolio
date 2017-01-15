@@ -10,3 +10,12 @@
     opacity: 0.75;
     position: absolute;
 }
+
+.make-in-cover {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #86d665, #ff5858);
+    opacity: 0.75;
+    position: absolute;
+}
