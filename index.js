@@ -7,8 +7,8 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname+'/index.html'));
 });
-app.get('/index2', function(req, res) {
-    res.sendFile(path.join(__dirname+'/index2.html'));
+app.get('/programming', function(req, res) {
+    res.sendFile(path.join(__dirname+'/programming.html'));
 });
 
 app.get('/ceremony', function(req, res) {
