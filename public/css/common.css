@@ -25,6 +25,11 @@
     .mb-20 { margin-bottom: 10px; }
     .mt-20 { margin-top: 10px; }
 }
+@media (max-width: 767px) {
+    .col-xs-10 img{
+        margin-top:20px;
+    }
+}
 .pos-rel{
     position: relative;
 }
