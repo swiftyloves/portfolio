@@ -118,3 +118,31 @@ li {
     color: rgba(84,84,84,0.5);
     font-size: 1.2em;
 }
+.quote {
+    font-family: "Droid Serif", serif;
+    font-style: italic;
+}
+.small-quote {
+    font-size: 2em;
+    color: rgba(15, 141, 208, 0.76);
+    background-size: 10px;
+    background-position: 10px 10px;
+}
+.endorsement-quote {
+    text-align: justify;
+    background: url('../images/quote-left.svg') no-repeat;
+    background-size: 20%;
+}
+.endor-person {
+    margin-top: 7.5px;
+    width: 65%;
+    float: right;
+    font-size: 13px;
+    font-size: 0.86667rem;
+    color: #8e8e8e;
+    text-align: right;
+}
+}
+.align-items-center {
+    align-items: center!important;
+}
