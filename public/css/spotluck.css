@@ -1,0 +1,35 @@
+.proj-title {
+    font-family: 'Lato';
+    font-weight: 600;
+    color: #E17C99;
+}
+.spot-title {
+    margin-top: 25px;
+    color: #FBF4C5;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    font-family: 'Lato';
+    font-size: 3em;
+}
+.spot-logo {
+    margin: auto;
+}
+.full-section-title {
+    background: #FBF4C5;
+}
+.full-section-title h2 {
+    color: #E17C99;
+}
+.problem-img-container img {
+    max-width: 100px;
+    margin: auto
+}
+.problem-img-container {
+	text-align: center;
+	color: #4E98AE;
+}
+.problem-des {
+	color: #a9a9a9;
+	font-size: 15px;
+	font-family: 'Times';
+}
