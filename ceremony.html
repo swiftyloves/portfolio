@@ -11,46 +11,77 @@
     <link href='./css/ceremony.css' media="all" rel="stylesheet" type="text/css" />
     <link href='./css/bootstrap.min.css' media="all" rel="stylesheet" type="text/css" />
 </head>
-<body>
-<div class="pos-rel">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" style="padding-top: 50px;">
+
+<!-- Navigation Bar -->
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="/">Jie-Wei Wu</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden active">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#solution">Solution</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#process">Design Process</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#reflection">Reflection</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+</nav>
+
+<div class="pos-rel mb-20">
 <section class="page-section bg-dark-alfa-30" data-background="images/alice-cat.png" style="background-image: url(&quot;images/cere/ceremony-preview.png&quot;); background-position-y: -200px;">
     <div class="cere-in-cover"></div>
-    <div class="relative container align-left">
-        
+    <div class="relative container">
         <div class="row">
-            
-            <div class="col-md-8">
-                <h1 class="hs-line-11 no-transp font-alt mb-20 mb-xs-0 cate">Ceremony</h1>
-                <div class="hs-line-4 font-alt sub-cate">
-                    Increasing productivity  in meetings through participants’ feedback
-                </div>
+            <div class="col-md-2 col-xs-10 col-xs-offset-1 col-md-offset-0">
+                <img src="./images/cere/logo.png" class="logo img-responsive" alt="phone mockup">    
             </div>
-            
+            <div class="col-md-6 col-xs-10 col-xs-offset-1 col-md-offset-0 text-center-sm">
+                <h1 class="spot-title hs-line-11 no-transp font-alt mb-20 mb-xs-0">Ceremony</h1>
+            </div>
         </div>
-        
     </div>
 </section>
 </div>
 
-<div class="container">
-    <div class="row intro mb-80 mt-80">
-        <div class="col-md-4 col-md-offset-1 col-xs-offset-1 sub-intro">
+<div class="container-fluid">
+    <div class="row proj-role mb-20">
+        <div class="col-md-2 col-xs-offset-1 col-md-offset-1">
             <h2 class="sub-int-title">Project Details</h2>
             <div class="sub-int-content">
                 <p><strong>Client:</strong> <a href="http://tommeloche.com/about-tom-meloche/">Tom Meloche</a>, Co-founder of Menlo Innovations</p>
-                <p><strong>Timespan:</strong> 2 month</p>
+                <p><strong>Timespan:</strong> 3 months</p>
                 <p><strong>Team Size:</strong> Four</p>
             </div>
         </div>
-
-        <div class="col-md-2 col-xs-offset-1 sub-intro">
+        <div class="col-md-2 col-xs-offset-1 col-md-offset-0">
             <h2 class="sub-int-title">My Role</h2>
             <div class="sub-int-content">
                 <p>UX Designer</p>
             </div>
         </div>
-
-        <div class="col-md-3 col-xs-offset-1 sub-intro">
+        <div class="col-md-2 col-xs-offset-1 col-md-offset-0">
             <h2 class="sub-int-title">Design Skills</h2>
             <div class="sub-int-content">
                 <p>Interview</p>
@@ -60,65 +91,274 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
-            <h2 class="title sub-title">Introduction and Problem Statement</h2>
-        </div>
-    </div>
-    <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-5 col-xs-10">
-            <p class="content">
-                Our team designed the mobile app Ceremony for our client, Tom Meloche. Tom is currently writing a book, Ceremony, which he hopes will improve productivity in the workplace. He will be consulting companies on his book and wanted to build a companion app to help companies implement the book's teachings. He contracted our team to create an interactive prototype to hand off to his developer. The app is expected in the Apple and Android app stores this Spring.
-            </p>
+
+    <div class="row intro mb-80">
+        <div class="col-md-7 col-md-offset-1 col-xs-offset-1 col-xs-10">
+            <h2 class="proj-title">Increasing productivity in <span class="highlight">meetings</span> through participants’ <span class="highlight">feedback</span></h2>
             <p class="content">
                 The goal of the app is to empower employees to rate the success of reoccurring meetings ("ceremonies") at work. The app then provides data that will help organization's improve their meetings productivity.
             </p>
+            
         </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-5 col-xs-10">
-            <img src="./images/cere/intro.png" class="img-responsive" alt="Responsive image">
+        <div class="col-md-offset-0 col-md-3 col-xs-offset-0 col-xs-12 landing-photo">
+            <img src="./images/cere/inphone.png" class="img-responsive" alt="phone mockup">    
         </div>
     </div>
-    <div class="row mb-20">
+    
+    
+    <div class="row">
         <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
-            <h2 class="title sub-title">Design Process</h2>
+            <h2 class="title sub-title">Client Introduction</h2>
         </div>
     </div>
+    
     <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-5 col-xs-10">
-            <p class="content" >We designed this application using the following steps:</p>
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-7 col-xs-10">
+            
             <p class="content">
-                <ul>
-                    <li>Frame the problem with user research and an affinity diagram</li>
-                    <li>Understand the problem through storyboards, personas, and comparative analysis</li>
-                    <li>Explore the solution space with wireframes</li>
-                    <li>Iterate based on feedback</li>
-                    <li>Create a hi-fi prototype to deliver to the client</li>
-                </ul>
+                Our client, Tom Meloche, is currently writing a book, Ceremony, which he hopes will improve productivity in the workplace. He will be consulting companies on his book and wanted to build a companion app to help companies implement the book's teachings. He contracted our team to create an interactive prototype to hand off to his developer.
+            </p>
+            <p class="content">
+                It is clear that he had great vision and passion for this project in that he provided us much more than just an idea: he included envisioned features, wireframes, storyboards...etc. While our team could taken his materials and directly started hi-fi prototyping, we found <strong> a lack of users' voice/research from the materials </strong> Tom provided. Hence, our team decided to still start from the beginning.  
             </p>
         </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-5 col-xs-10">
-            <img src="./images/cere/flow.png" class="img-responsive" alt="Responsive image">
+        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10">
+            <img src="./images/cere/tomsketch.jpg" class="img-responsive" alt="tomsketch">    
+        </div>
+    </div>
+    <div class="row mt-40" id="solution">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 fake">
         </div>
     </div>
 
     <div class="row mb-20">
         <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
-            <h2 class="title sub-title">User Research</h2>
+            <h2 class="title sub-title">The Design Solution</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+            <h3 class="title sub-title">User Flow </h3>
         </div>
     </div>
     <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-5 col-xs-10">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+            <div class="row flow">
+                <div class="col-xs-offset-0 col-md-offset-0 col-md-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-12">
+                            <div class="row">
+                                <h4 class="title sub-title text-center step"></span>Set up a ceremony </h4>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+                                    <img src="./images/cere/hifi/create2-2.png" class="img-responsive border" alt="create ceremony">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-12">
+                            <div class="row">
+                                <h4 class="title sub-title text-center step"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Receive notifications after a ceremony ends</h4>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+                                    <img src="./images/cere/hifi/notification2.png" class="img-responsive border" alt="create ceremony">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-12">
+                            <div class="row">
+                                <h4 class="title sub-title text-center step"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Provide anonymous feedback</h4>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+                                    <img src="./images/cere/hifi/Question3.png" class="img-responsive border" alt="create ceremony">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-12">
+                            <div class="row">
+                                <h4 class="title sub-title text-center step"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Analyze ceremony data</h4>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+                                    <img src="./images/cere/data/v404-2.png" class="img-responsive border" alt="create ceremony">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+            <h3 class="title sub-title">1. Set up a ceremony</h3>
+        </div>
+    </div>
+    <div class="row mb-80">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+            <div class="row flow">
+                <div class="col-xs-offset-0 col-md-offset-2 col-md-8 col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-4 col-xs-6">
+                            <img src="./images/cere/create/1.png" class="img-responsive border" alt="create ceremony">
+                        </div>
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-4 col-xs-6">
+                            <img src="./images/cere/create/2.png" class="img-responsive border" alt="create ceremony">
+                        </div>
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-4 col-xs-6">
+                            <img src="./images/cere/hifi/create3.png" class="img-responsive border" alt="create ceremony">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+            <h3 class="title sub-title">2.Receive Notifications and 3.Provide Feedback</h3>
+            <p class="content">Based on our user research, we make this <strong>as quick and as easy as possible</strong>. A user just needs to tap a smiley button and they are done. However, to allow for more qualitative responses we added attribute buttons that are optional along with an optional comments field. The attributes can be customized. We used our <strong>affinity wall findings </strong>to create the stock buttons content.</p>
+        </div>
+    </div>
+    <div class="row mb-80">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+            <div class="row flow">
+                <div class="col-xs-offset-0 col-md-offset-1 col-md-10 col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-6">
+                            <img src="./images/cere/hifi/notification2.png" class="img-responsive border" alt="create ceremony">
+                        </div>
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-6">
+                            <img src="./images/cere/hifi/Question1.png" class="img-responsive border" alt="create ceremony">
+                        </div>
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-6">
+                            <img src="./images/cere/hifi/Question2.png" class="img-responsive border" alt="create ceremony">
+                        </div>
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-6">
+                            <img src="./images/cere/hifi/Question4.png" class="img-responsive border" alt="create ceremony">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+            <h3 class="title sub-title">4. Analyze ceremony data</h3>
+        </div>
+    </div>
+    <div class="row mb-80">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+            <div class="row flow">
+                <div class="col-xs-offset-0 col-md-offset-3 col-md-6 col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-6 col-xs-6">
+                            <img src="./images/cere/reports/daily.png" class="img-responsive border" alt="daily report">
+                        </div>
+                        <div class="col-xs-offset-0 col-md-offset-0 col-md-6 col-xs-6">
+                            <img src="./images/cere/reports/weekly.png" class="img-responsive border" alt="weekly report">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row" id="process">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 fake">
+        </div>
+    </div>
+    <div class="row full-section-title mb-40">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 text-center">
+            <h2 class="title">DESIGN PROCESS</h2>
+            <!-- <h4 class="content"> How we get there? </h4> -->
+        </div>
+    </div>
+    <div class="row mb-80">
+        <div class="col-xs-offset-1 col-md-offset-2 col-md-8 col-xs-10">
+            <div class="row">
+                <div class="col-xs-offset-1 col-md-offset-0 col-md-4 col-xs-10 develop-step">
+                    <a class="page-scroll progress-link" href="#research">
+                        <h3 class="text-center progress-list-title">User Research</h3>
+                        <div class="dot text-center">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <div class="line line-right"></div>
+                            <div class="angle-right">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <ul class="progress-sublist">
+                            <li>User Interview</li>
+                            <li>Storyboard</li>
+                            <li>Persona</li>
+                            <li>Affinity Diagram</li>
+                        </ul>
+                    </a>
+                </div>
+                <div class="col-xs-offset-1 col-md-offset-0 col-md-4 col-xs-10 develop-step">
+                    <a class="page-scroll progress-link" href="#designing">
+                        <h3 class="text-center progress-list-title">Designing Solution</h3>
+                        <div class="dot text-center">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <div class="line"></div>
+                            <div class="angle-right">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <ul class="progress-sublist">
+                            <li>System Site Map</li>
+                            <li>Wireframing</li>
+                            
+                        </ul>
+                    </a>
+                </div>
+                <div class="col-xs-offset-1 col-md-offset-0 col-md-4 col-xs-10 develop-step">
+                    <a class="page-scroll progress-link" href="#iteration">
+                        <h3 class="text-center progress-list-title">Iteration</h3>
+                        <div class="dot text-center">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <div class="line line-left"></div>
+                        </div>
+                        <ul class="progress-sublist">
+                            <li>Feedback</li>
+                            <li>Hi-fi Mockup</li>
+                        </ul>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="row mt-40" id="research">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 fake">
+        </div>
+    </div>
+    <div class="row mb-20">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 text-center">
+            <h2 class="title sub-title highlight">User Research</h2>
+        </div>
+    </div>
+    
+
+    <div class="row mb-20">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+            <h3 class="title sub-title ">User Interview</h3>
+        </div>
+    </div>
+    <div class="row mb-80">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
             <p class="content">
             We conducted a user study, in which we interviewed <strong>8 people</strong> about their meeting experiences. The interviewees work in a wide range of industries including academic, religious, financial, construction, co-op housing, consulting, and technology. We created an interview protocol and modified it slightly according to  different work roles. We intended to discover the common problems among many different situation meetings and to understand the problems throughly.
             </p>
         </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-5 col-xs-10">
-            <img src="./images/cere/InterviewProtocol-2.jpg" class="img-responsive border" alt="Responsive image">
-        </div>
     </div>
     <div class="row mb-20">
         <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
-            <h2 class="title sub-title">Storyboards and Personas</h2>
+            <h3 class="title sub-title">Storyboards and Personas</h3>
         </div>
     </div>
     <div class="row mb-80">
@@ -149,218 +389,254 @@
 
     <div class="row mb-20">
         <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
-            <h2 class="title sub-title">Affinity Diagram</h2>
+            <h3 class="title sub-title">Affinity Diagram</h3>
         </div>
     </div>
     <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-5 col-xs-10">
-            <p class="content">
-            We extracted top-three major findings from each interview and put them on post-it notes. These notes are grouped to create an affinity diagram to understand what attributes apply to a productive meeting. 
-            </p>
-            <p class="content"></p>
-            <p class="content">The key findings from our affinity wall were:
-                <ul class="content">
-                    <li>Participant engagement in the meeting is key</li>
-                    <li>People should feel encouraged to contribute</li>
-                    <li>Good leadership matters</li>
-                    <li>Good meeting structure increases productivity</li>
-                    <li>Positive group culture helps meetings evolve</li>
-                </ul>
-            </p>
+        <div>
+            <div class="col-xs-offset-1 col-md-offset-1 col-md-8 col-xs-10">
+                <p class="content">
+                We extracted top-three major findings from each interview and put them on post-it notes. These notes are grouped to create an affinity diagram to understand what attributes apply to a productive meeting. 
+                </p>
+                <p class="content">The key findings from our affinity wall were:</p>
+                
+            </div>
+            <div class="col-xs-offset-1 col-md-offset-0 col-md-2 col-xs-10">
+                <img src="./images/cere/affinitydiagram.png" class="img-responsive border" alt="Responsive image">
+            </div>
         </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-5 col-xs-10">
-            <img src="./images/cere/affinitydiagram.png" class="img-responsive border" alt="Responsive image">
+        <div class="row mt-20">
+            <div class="col-xs-offset-1 col-md-offset-1 col-md-8 col-xs-10 pull-left">
+                <div class="row mb-40">
+                    <div class="col-xs-offset-1 col-md-offset-1 col-md-3 col-xs-5 text-center">
+                        <div> <i class="fa fa-comments-o finding-icon dark-blue" aria-hidden="true"></i></div>
+                        <div class="finding-text">Participant <strong class="highlight">engagement</strong> is key</div>
+                    </div>
+                    <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-5 text-center">
+                        <div> <i class="fa fa-street-view finding-icon dark-blue" aria-hidden="true"></i></div>
+                        <div class="finding-text">Good <strong class="highlight">leadership</strong> matters</div>
+                    </div>
+                    <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-5 text-center">
+                        <div> <i class="fa fa-thumbs-up finding-icon dark-blue" aria-hidden="true"></i></div>
+                        <div class="finding-text">Participant should feel <strong class="highlight">encouraged</strong> to contribute</div>
+                    </div>
+                
+                    <div class="col-xs-offset-0 col-md-offset-2 col-md-3 col-xs-5 text-center">
+                        <div> <i class="fa fa-cube finding-icon dark-blue" aria-hidden="true"></i></div>
+                        <div class="finding-text">Good meeting <strong class="highlight">structure</strong> increases productivity</div>
+                    </div>
+                    <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10 text-center">
+                        <div> <i class="fa fa-puzzle-piece finding-icon dark-blue" aria-hidden="true"></i></div>
+                        <div class="finding-text">Positive group <strong class="highlight">culture</strong> helps ceremonies evolve</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row mt-40" id="designing">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 fake">
         </div>
     </div>
     <div class="row mb-20">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
-            <h2 class="title sub-title">Designing the Solution</h2>
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 text-center">
+            <h2 class="title sub-title highlight">Designing the Solution</h2>
         </div>
     </div>
     <div class="row">
         <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
             <p class="content">
-                We took a parallel prototyping approach to our design. As a team we discussed and decided the required functions of the application according to both our findings and the client’s requirements. Then every designer worked on the wireframes, designing the features of the application according to their thoughts. We then came together and provided feedback.
+                We took a <strong>parallel prototyping approach</strong> to our design. As a team we discussed and decided the required functions of the application according to both our findings and the client’s requirements. Then every designer worked on the wireframes, designing the features of the application according to their thoughts. We then came together and provided feedback.
             </p>
             <p class="content">
                 We used this technique throughout the entire design process and created a system map, wireframes, lo-fi, and hi-fi mockups with interactions.
             </p>
         </div>
     </div>
-    <div class="row mb-20">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 title sub-title" ><h3>Wireframe<h3></div>
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-5 col-xs-10">
-            <img src="./images/cere/wire-frame1.jpg" class="img-responsive border" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-5 col-xs-10">
-            <img src="./images/cere/wire-frame2.jpg" class="img-responsive border" alt="Responsive image">
-        </div>
-        
-    </div>
+    
     <div class="row mb-20">
         <div class="col-xs-offset-1 col-md-offset-1 col-md-5 col-xs-10 title sub-title" >
-            <h3>Site Map</h3>
+            <h3>System Site Map</h3>
         </div>
     </div>
     <div class="row mb-20">
         <div class="col-xs-offset-1 col-md-offset-1 col-md-5 col-xs-10 title sub-title" >
             <p class="content">
-                From our affinity wall, we realized the importance of separating roles (i.e. hosts v.s. participants) and how they may use this app differently. However, we wanted to keep one interface for all roles. Hence, we outlined the different ways a user will interact with the app based on their role using a system map. This helped us create our product requirements.
+                From our affinity wall, we realized the importance of separating roles (i.e. hosts v.s. participants) and how they may use this app differently. However, we wanted to <strong>keep one interface for all roles</strong>. Hence, we outlined the different ways a user will interact with the app based on their role using a system map. This helped us create our product requirements.
             </p>
         </div>
         <div class="col-xs-offset-1 col-md-offset-0 col-md-5 col-xs-10">
             <img src="./images/cere/Sitemap2.png" class="img-responsive border" alt="Responsive image">
         </div>
     </div>
-    <div class="row">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 title sub-title" ><h3>Hi-fi Mockup</h3></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 content" >
-            <p>
-                Below are mockups representing the main user journey for Ceremony. A host will create a ceremony that coincides with a meeting and invite participants to that ceremony. After a meeting ends everyone will receive a push notification asking for feedback about the meeting. Everyone will provide their anonymous feedback and then analyze the data.
-            </p>
-            <p>User flow:</p>
-            <p>1) Set up a ceremony</br>
-            2) Receive notifications after a ceremony ends</br>
-            3) Provide anonymous feedback</br>
-            4) Analyze ceremony data.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 title sub-title" ><h4>Set up a ceremony</h4></div>
-    </div>
-    <div class="row mb-20">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-3 col-xs-10 content create" >
-            <img src="./images/cere/hifi/create1.png" class="img-responsive" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10 content create" >
-            <img src="./images/cere/hifi/create2.png" class="img-responsive" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10 content create" >
-            <img src="./images/cere/hifi/create4.png" class="img-responsive" alt="Responsive image">
-        </div>
-    </div>
     <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 title sub-title" >
-            <p class="content"><strong>Iteration Process: </strong>Our design philosophy is that the survey process should be simple and easy for participants to use. because this is a  In the step of working on mockup in parallel, we split the steps of creating a ceremony. I was responsible of inviting participants, in which I tried different kinds of designing the progress bar and thought of the steps back and forth. That is, how to connect my design with other pages my team members are responsible. </p>
-
-            <p class="content">I decided to tried and design all steps and came out that placing all steps of creating a ceremony in one page would be simpler and easier for users. When we came back to give critique, our team discussed and agreed that this is a better design for creating a ceremony.</p>
-
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 title sub-title" ><h3>Wireframe<h3></div>
+        <div class="col-xs-offset-1 col-md-offset-3 col-md-3 col-xs-5">
+            <img src="./images/cere/wire-frame1.jpg" class="img-responsive border" alt="Responsive image">
         </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 title sub-title" ><h4>Receive Notifications and Provide Feedback</h4></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10" >
-        <p class="content"> From our user tests we learned this was the most important part of the user flow. We had to make this as quick and as easy as possible or else users would not respond to the survey prompt. Imagine if you have 10 meetings a week in the app and if each survey takes 5 minutes to complete. That's almost an hour spent every week responding to surveys. People don't have time for that. So we simplified the three questions our client outlined into one overarching "How did the ceremony go?". </p>
-
-        <p class="content">A user just needs to tap a smiley button and they are done. However, to allow for more qualitative responses we added attribute buttons that are optional along with an optional comments field. The attributes can be customized. We used our affinity wall findings to create the stock buttons content.</p>
-        </div>
-    </div>
-    <div class="row mb-20">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-3 col-xs-10 content create" >
-            <img src="./images/cere/hifi/notification.png" class="img-responsive" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10 content create" >
-            <img src="./images/cere/hifi/Question+1.png" class="img-responsive" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10 content create" >
-            <img src="./images/cere/hifi/Question+2.png" class="img-responsive" alt="Responsive image">
-        </div>
-    </div>
-    <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-3 col-xs-10 content create" >
-            <img src="./images/cere/hifi/Question+3.png" class="img-responsive" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10 content create" >
-            <img src="./images/cere/hifi/Thank+you+notification.png" class="img-responsive" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10 content create" >
-            <img src="./images/cere/hifi/ceremonyfeedback2.gif" class="img-responsive" alt="Responsive image">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 title sub-title" ><h4>Analyze data</h4></div>
-    </div>
-    <div class="row mb-20">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-5 col-xs-10" >
-        <p class="content">The next step we split the work and I was in charge of presenting the statistic result of surveys. I studied how to present the data visualization to users, received feedbacks of the team members, and iterated. The design iterated with the decisions of different factors, such as changing three questions to one question. Below are the design process of data visualization.</p>
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-5 col-xs-10" >
-        <img src="./images/cere/chartflow.jpg" class="img-responsive" alt="Chartflow">
-        <!-- <p class="content">The flow of versions, the decisions, and the reasons of change</p> -->
-        </div>
-    </div>
-    <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 title sub-title" ><strong>Version 1</strong>:</br><p class="content">I explored different methods: pie chart, scores, and line charts, as well as managing the time period interaction.</p></div>
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-2 col-xs-10">
-            <img src="./images/cere/data/v101.png" class="img-responsive border" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-2 col-xs-10">
-            <img src="./images/cere/data/v102.png" class="img-responsive border" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-2 col-xs-10">
-            <img src="./images/cere/data/v103.png" class="img-responsive border" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-2 col-xs-10">
-            <img src="./images/cere/data/v104.png" class="img-responsive border" alt="Responsive image">
-        </div>
-    </div>
-    <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 title sub-title" ><strong>Version 2</strong>:</br><p class="content">I further deliberated on the interaction of switching questions and date.</p></div>
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-3 col-xs-10">
-            <img src="./images/cere/data/v201.png" class="img-responsive border" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10">
-            <img src="./images/cere/data/v202.png" class="img-responsive border" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10">
-            <img src="./images/cere/data/v203.png" class="img-responsive border" alt="Responsive image">
-        </div>
-    </div>
-    <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 title sub-title" ><strong>Version 3</strong>:</br><p class="content">The three questions were changed to one question. Thy way of how users take survey were modified from the score range to narrative options. Here we used likert chart to better reveal the information in a time period. In addition I also explored pie chart visualization to show the daily data.</p></div>
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-3 col-xs-10">
-            <img src="./images/cere/data/v301.png" class="img-responsive border" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10">
-            <img src="./images/cere/data/v302.png" class="img-responsive border" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10">
-            <img src="./images/cere/data/v303.png" class="img-responsive border" alt="Responsive image">
-        </div>
-    </div>
-    <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 title sub-title" ><strong>Version 4</strong>:</br><p class="content">We had debates on the neutral phase. That is, does this option helped the ceremony to evolve? The purpose of the application is to receive feedbacks on how to make the ceremony getting better and to encourage participants to state their opinions. Therefore, we removed the neutral option and forced participants to choose one side. In addition, the size of the face icon also indicated the percentage of the users opinions.</p></div>
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-3 col-xs-10">
-            <img src="./images/cere/data/v401.png" class="img-responsive border" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10">
-            <img src="./images/cere/data/v402.png" class="img-responsive border" alt="Responsive image">
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-10">
-            <img src="./images/cere/data/v403.png" class="img-responsive border" alt="Responsive image">
+        <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-5">
+            <img src="./images/cere/wire-frame2.jpg" class="img-responsive border" alt="Responsive image">
         </div>
         
     </div>
     <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 title sub-title" ><strong>Final Version</strong>:</br><p class="content"></p></div>
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-3 col-xs-10">
-            <img src="./images/cere/data/v404.png" class="img-responsive border" alt="Responsive image">
+    </div>
+    <div class="row mt-40" id="iteration">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 fake">
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 text-center">
+            <h2 class="title sub-title highlight">Iteration</h2>
+        </div>
+    </div>
     <div class="row mb-20">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
-            <h2 class="title sub-title">Final Client Pitch</h2>
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10" >
+        <p class="content">We took parallel design and I was in charge of <strong>presenting the statistic result of surveys</strong>. I would take it as to show the process of iteration.</p>
+        </div>
+    </div>
+    
+    <div class="row mb-40">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-3 col-xs-10 title" >
+            <div class="iter-text">
+                <h3>Exploration</h3>
+                <ul>
+                    <li> 3 questions </li>
+                    <li> Score-based survey </li>
+                </ul>
+                <div class="verticle-line-b"></div>
+            </div>
+        </div>
+        <div class="col-xs-offset-1 col-md-offset-0 col-md-7 col-xs-10 title sub-title" >
+            <div class="row">   
+                <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-6">
+                <img src="./images/cere/data/v101.png" class="img-responsive border" alt="Responsive image">
+                </div>
+                <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-6">
+                    <img src="./images/cere/data/v102.png" class="img-responsive border" alt="Responsive image">
+                </div>
+                <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-6">
+                    <img src="./images/cere/data/v103.png" class="img-responsive border" alt="Responsive image">
+                </div>
+                <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-6">
+                    <img src="./images/cere/data/v104.png" class="img-responsive border" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-40">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-3 col-xs-10 title" >
+            <div class="iter-text">
+                <h3>Line Chart</h3>
+                <ul>
+                    <li> Show the trend of ceremonies </li>
+                    <li> Switch between 3 questions </li>
+                    <li> Different time scale: daily and weekly </li>
+                </ul>
+                <div class="verticle-line-b"></div>
+            </div>
+            
+        </div>
+        <div class="col-xs-offset-1 col-md-offset-0 col-md-7 col-xs-10 title sub-title" >
+            <div class="row">   
+                <div class="col-xs-offset-0 col-md-offset-0  col-md-3 col-xs-6">
+                <img src="./images/cere/data/v201.png" class="img-responsive border" alt="Responsive image">
+                </div>
+                <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-6">
+                    <img src="./images/cere/data/v202.png" class="img-responsive border" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-40">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-7 col-xs-10 title" >
+            <div class="iter-pad">
+                <h3>Critique:</h3>
+                <ul>
+                    <li><strong>Ambiguity</strong> of the 3 questions: what if participants do not understand it?</li>
+                    <li><strong>Meaningless of scores</strong>: low score does not provide information to improve meetings</li>
+                    <li>Comparable analysis: how other company design the service survey?</li>
+                </ul>
+                <div class="verticle-line-b"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row mb-40">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-3 col-xs-10 title" >
+            <div class="iter-text">
+                <h3>Face Expression</h3>
+                <ul>
+                    <li> 3 questions <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 1 question </li>
+                    <li> Score range <i class="fa fa-long-arrow-right" aria-hidden="true"></i> Narrative options </li>
+                    <li> Likert chart is used to show trend </li>
+                </ul>
+                <div class="verticle-line-b"></div>
+            </div>
+            
+        </div>
+        <div class="col-xs-offset-1 col-md-offset-0 col-md-7 col-xs-10 title sub-title" >
+            <div class="row">   
+                <div class="col-xs-offset-0 col-md-offset-1 col-md-3 col-xs-6">
+                    <img src="./images/cere/data/v301.png" class="img-responsive border" alt="Responsive image">
+                </div>
+                <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-6">
+                    <img src="./images/cere/data/v302.png" class="img-responsive border" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-40">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-8 col-xs-10 title" >
+            <div class="iter-pad">
+                <h3>Critique:</h3>
+                <ul>
+                    <li><strong>Neutral expression</strong>: it might cause participants to stay <strong>no opinion</strong> and does not help the improvement </li>
+                </ul>
+                <div class="verticle-line-b"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="row mb-80">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-3 col-xs-10 title" >
+            <div class="iter-text">
+                <h3>Further Elaboration</h3>
+                <ul>
+                    <li> Remove neutral expression </li>
+                    <li> Image sizes reflect the amounts</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="col-xs-offset-1 col-md-offset-0 col-md-7 col-xs-10 title sub-title" >
+            <div class="row">   
+                <div class="col-xs-offset-0 col-md-offset-1 col-md-3 col-xs-6">
+                    <img src="./images/cere/data/v401.png" class="img-responsive border" alt="Responsive image">
+                </div>
+                <div class="col-xs-offset-0 col-md-offset-0 col-md-3 col-xs-6">
+                    <img src="./images/cere/data/v402.png" class="img-responsive border" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="row mb-40">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 text-center">
+            <h2 class="title sub-title highlight">Final Client Pitch</h2>
         </div>
     </div>
     <div class="row mb-80">
         <div class="col-xs-offset-1 col-md-offset-1 col-md-5 col-xs-10">
             <p class="content">
-                The final pitch was very successful! Our client was very glad our team ended up still doing the user research and created something (even though slightly different than his original sketches) that could carry weight and adhere to user needs. It was a great learning experience for my personal communications skills: working with four other designs and trying to reaching consensus as well as managing client interactions. 
+                The final pitch was very successful! Our client was very glad our team ended up still doing the user research and created something (even though slightly different than his original sketches) that could carry weight and adhere to user needs.
             </p>
             <p><a class="btn btn-default" href="https://docs.google.com/presentation/d/1DnY9qBBLXdPWcuy9xKYhr5wHbfBWxq4JCf8GcRWkLyg/edit?usp=sharing" target="_blank" role="button">Presentation Slides</a></p>
         </div>
@@ -368,35 +644,33 @@
             <img src="./images/cere/teamphoto.webp" class="img-responsive" alt="Responsive image">
         </div>
     </div>
+    <div class="row mt-40" id="reflection">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 fake">
+        </div>
+    </div>
 
-    <div class="row mb-20">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
-            <h2 class="title sub-title">Challenges and Reflection</h2>
+    <div class="row mb-40">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 text-center">
+            <h2 class="title sub-title highlight">Challenges and Reflection</h2>
         </div>
     </div>
     <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-6 col-xs-10">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
             <p class="content">
-                The challenge for me was to communicate with other designers as well as defended my opinions. The leading style of our team lead is pretty casual. He coordinated the team with  everyone’s opinions. Sometimes that would result in a little chaos. Gradually I learnt that if I felt something was important I should just bring it out or even volunteer on doing it. In the process I felt data visualization should be done although we did have enough time. Thus I volunteered to work on it and brought more than my team members expected. I also learnt that there is no standard way to work on a project. We could elaborate as much details as we want but we still need to considerate the limit time resource.
+                The first lesson is <strong>how to resolve differences in client's view and users' findings.</strong>
+                The challenge for me was to <strong>communicate with other designers as well as defend my opinions.</strong> The leading style of our team lead is pretty casual. He coordinated the team with  everyone’s opinions. Sometimes that would result in a little chaos. Gradually I learnt that if I felt something was important <strong>I should just bring it out </strong>or even volunteer on doing it. In the process I felt data visualization should be done although we did have enough time. Thus I volunteered to work on it and brought more than my team members expected. I also learnt that <strong>there is no standard way to work on a project.</strong> We could elaborate as much details as we want but we still need to considerate the limit time resource.
+                
             </p>
         </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-4 col-xs-10">
-            <img src="./images/cere/laptop.jpg" class="img-responsive" alt="Responsive image">
-        </div>
+        
     </div>
      <div class="row mb-80">
     </div>
-    <div class="row mb-80">
-        <a href="/" class="back">
-            <div class="col-xs-offset-5 col-md-offset-5 img-circle home pos-rel">
-                
-                <i class="fa fa-arrow-left" aria-hidden="true"></i>
-            </div>
-        </a>
-    </div>
 </div>
-
 <!-- Latest compiled and minified JavaScript -->
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="./js/scrolling-nav.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
