@@ -136,18 +136,18 @@ li {
     text-align: justify;
     background-image: url('../images/quote-left.svg');
     background-repeat: no-repeat;
-    background-size: 20%;
+    background-size: 50px;
 }
+
 .in-des-quote {
     color: gray;
     background-size: 10%;
 }
 .endor-person {
     margin-top: 7.5px;
-    width: 65%;
+    width: 75%;
     float: right;
     font-size: 13px;
-    font-size: 0.86667rem;
     color: #8e8e8e;
     text-align: right;
 }
@@ -178,5 +178,11 @@ li {
     background: #f7f7f7;
 }
 
+@media (max-width: 767px) {
+    .endor-person {
+        margin-top: 7.5px;
+        width: 100%;
+    }
+}
 
 

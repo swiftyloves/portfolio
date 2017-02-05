@@ -193,6 +193,9 @@ html, body {
 .about-me-subtitle {
 
 }
+.content {
+    line-height: 1.5em;
+}
 
 /*@keyframes example {
     from {background-size: 100%;}
