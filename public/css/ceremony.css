@@ -187,4 +187,8 @@
     .angle-right {
         top: -2px;
     }
+    .flow-step {
+        padding-top: 40px;
+
+    }
 }
