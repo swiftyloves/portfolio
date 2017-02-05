@@ -151,9 +151,12 @@ html, body {
 
 .about-me {overflow: hidden;}
 .avator {
-    border-radius: 50%;
     width: 150px;
     opacity: 0.8;
+}
+.per-attr {
+    width: 100px;
+    opacity: 1;
 }
 .self {
     font-family: 'Lato';
@@ -195,6 +198,25 @@ html, body {
 }
 .content {
     line-height: 1.5em;
+}
+.navbar-index a{
+    color: gray;
+}
+.navbar-index a:hover {
+    background: transparent !important;
+    color: #bbbbbb;
+}
+.sub-int-content li {
+    display: inherit;
+}
+.line {
+    height: 5px;
+    background: #ffd4f0;
+    /* position: absolute; */
+    /* bottom: 0; */
+    z-index: -1;
+    width: 250px;
+    margin: -10px auto 0;
 }
 
 /*@keyframes example {

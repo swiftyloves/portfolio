@@ -42,6 +42,9 @@
 }
 .top-buffer { margin-top:20px; }
 
+.ma-auto {
+    margin: auto;
+}
 .cate {
     margin-top: 0;
     position: relative;
