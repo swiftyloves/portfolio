@@ -9,10 +9,10 @@
     background: linear-gradient(-135deg, #20689e, #ffffff);
     opacity: 0.75;
     position: absolute;
-    background-position-x: 20px;
+    /*background-position-x: 20px;*/
 }
 .page-section {
-    margin-top: 200px;
+    padding-top: 20%;
 }
 
 .spot-title {
