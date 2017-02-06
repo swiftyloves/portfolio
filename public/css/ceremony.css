@@ -6,18 +6,13 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(-135deg, #365a75, #fcff51);
+    background: linear-gradient(-135deg, #20689e, #ffffff);
     opacity: 0.75;
     position: absolute;
+    background-position-x: 20px;
 }
-
-.make-in-cover {
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(135deg, #86d665, #ff5858);
-    opacity: 0.75;
-    position: absolute;
+.page-section {
+    margin-top: 200px;
 }
 
 .spot-title {
@@ -129,7 +124,7 @@
 .iter-pad {
     margin-top: 20px;
     padding: 5px 25px;
-    border: 1px solid gray;
+    /*border: 1px solid gray;*/
     background: white;
 }
 .verticle-line-t {
@@ -141,8 +136,12 @@
 .verticle-line-b {
     border: 1px solid #d6d6d6;
     position: absolute;
+    left: 170px;
     top: 100%;
-    height: 150%
+    height: 350px;
+}
+.verticle-line-bend {
+    height: 140px;
 }
 .progress-link:hover {
     text-decoration: none!important;
@@ -153,8 +152,11 @@
 }
 
 @media screen and (max-width: 991px) {
-    .text-center-sm {
-        text-align: center;
+    .page-section {
+        margin-top: 0px;
+    }
+    .proj-title {
+        line-height: 45px;
     }
     .landing-photo {
         margin-top: 20px;
@@ -162,6 +164,9 @@
     .landing-photo img{
         height: 400px;         
         margin: auto;
+    }
+    .sub-int-title {
+        margin-top: 25px;
     }
     .step {
         height: auto;
@@ -180,6 +185,7 @@
     }
     .iter-pad {
         margin-top: 20px;
+        padding: 40px 25px;
     }
     .verticle-line-b {
         display: none;
