@@ -150,6 +150,9 @@ html, body {
 
 
 .about-me {overflow: hidden;}
+.light-gray-bk {
+    background-color: rgba(214, 214, 214, 0.03);
+}
 .avator {
     width: 150px;
     opacity: 0.8;
