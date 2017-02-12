@@ -26,6 +26,9 @@ html, body {
 .cover:hover .in-cover{
 
 }
+.pj-row1 {
+    margin-bottom: 50px;
+}
 
 .h-30per {
     height: 33%;
@@ -220,6 +223,12 @@ html, body {
     z-index: -1;
     width: 250px;
     margin: -10px auto 0;
+}
+
+@media screen and (max-width: 991px) {
+    .pj-row1 {
+        margin-bottom: 0px;
+    }
 }
 
 /*@keyframes example {
