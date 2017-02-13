@@ -156,13 +156,12 @@ li {
     background-position: 10px 10px;
 }
 .quote {
-
-}
-.endorsement-quote {
-    text-align: justify;
     background-image: url('../images/quote-left.svg');
     background-repeat: no-repeat;
     background-size: 50px;
+}
+.endorsement-quote {
+    text-align: justify;   
 }
 
 .in-des-quote {
