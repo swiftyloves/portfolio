@@ -17,6 +17,9 @@ app.get('/ceremony', function(req, res) {
 app.get('/makerspace', function(req, res) {
     res.sendFile(path.join(__dirname+'/makerspace.html'));
 });
+app.get('/spotluck', function(req, res) {
+    res.sendFile(path.join(__dirname+'/spotluck.html'));
+});
 app.get('/film', function(req, res) {
     res.sendFile(path.join(__dirname+'/film.html'));
 });
