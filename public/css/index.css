@@ -246,6 +246,9 @@ html, body {
     .pj-row1 {
         margin-bottom: 0px;
     }
+    #navbar {
+        background: transparent;
+    }
 }
 
 /*@keyframes example {
