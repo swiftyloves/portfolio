@@ -17,7 +17,9 @@ html, body {
     width: 30px;
     margin: 0 12px 9px 0;
 }
-
+#navbar {
+    background: rgba(255, 255, 255, 0.39);
+}
 .cover:hover {
     cursor: pointer;
 }
