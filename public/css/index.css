@@ -13,6 +13,10 @@ html, body {
     from {display: none;}
     to {display: block;}
 }
+.self-logo {
+    width: 30px;
+    margin: 0 12px 9px 0;
+}
 
 .cover:hover {
     cursor: pointer;
@@ -78,7 +82,10 @@ html, body {
 
 /* Background */
 .ceremony-cover {
-    background: url('../images/cere/ceremony-preview.png');
+    background: url('../images/cere/ceremony2.jpg');
+}
+.spot-cover {
+    background: url('../images/cook/kitchen-bk.jpg');
 }
 .makerspace-cover {
     background: url('../images/makerspace.jpg');
@@ -117,6 +124,10 @@ html, body {
     background: #7baed4;    
     opacity: 0.8;
 }
+.spot-in-cover {
+    background: #a2a271;
+    opacity: 0.8;
+}
 .make-in-cover {
     background: #bb91b3;
     opacity: 0.8;
@@ -127,7 +138,7 @@ html, body {
 }
 .film-in-cover {
     /*background: linear-gradient(135deg, #6092b7, #e47e8f);*/
-    background: #b18a54;
+    background: #608c83;
     opacity: 0.8;
 }
 .graphics-in-cover {
@@ -210,7 +221,11 @@ html, body {
 }
 .navbar-index a:hover {
     background: transparent !important;
-    color: #bbbbbb;
+    color: #bbb;
+}
+.navbar-index a:focus {
+    background: transparent !important;
+    /*color: white;*/
 }
 .sub-int-content li {
     display: inherit;
