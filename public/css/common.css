@@ -1,3 +1,7 @@
+#navbar {
+    background: rgba(255, 255, 255, 0.39);
+}
+
 .page-section, .small-section {
     width: 100%;
     display: block;
@@ -15,12 +19,32 @@
     box-sizing: border-box;
     padding: 80px 0;
 }
+.self-logo {
+    width: 30px;
+    display: inline;
+}
+#navbar .self-logo {
+    width: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.spot-title {
+    margin-top: 40px;
+    color: #365a75;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    font-family: 'Lato';
+    font-size: 3em;
+}
+
 .mb-80 { margin-bottom: 80px; }
 .mb-50 { margin-bottom: 50px; }
 .mb-40 { margin-bottom: 40px; }
 .mb-20 { margin-bottom: 20px; }
 .mt-80 { margin-top: 80px; }
 .mt-20 { margin-top: 20px; }
+.pb-80 { padding-bottom: 80px; }
 
 @media only screen and (max-width: 480px) {
     .page-section {
@@ -31,6 +55,7 @@
     .mt-80 { margin-top: 40px; }
     .mb-20 { margin-bottom: 10px; }
     .mt-20 { margin-top: 10px; }
+    .pb-80 { padding-bottom: 40px; }
 }
 @media (max-width: 767px) {
     .col-xs-10 img{
@@ -176,9 +201,12 @@ li {
 .navbar-brand {
     font-family: 'Lato';
 }
-
+/* Projects */
 .proj-role{
     background: #f7f7f7;
+}
+.landing-photo {
+    margin-top: -440px;
 }
 
 @media (max-width: 767px) {
@@ -187,5 +215,8 @@ li {
         width: 100%;
     }
 }
-
-
+@media screen and (max-width: 991px) {
+    .text-center-sm {
+        text-align: center;
+    }
+}
