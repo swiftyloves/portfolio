@@ -11,15 +11,48 @@
     <link href='./css/spotluck.css' media="all" rel="stylesheet" type="text/css" />
     <link href='./css/bootstrap.min.css' media="all" rel="stylesheet" type="text/css" />
 </head>
-<body>
-<div class="pos-rel">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" style="padding-top: 50px;">
+<div class="pos-rel mb-20">
+
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="/"><img src="./images/logo2-2.png" class="self-logo" /> Jie-Wei Wu</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden active">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#challenge">Challenge</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#process">Design Process</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+</nav>
+
 <section class="page-section bg-dark-alfa-30" data-background="images/alice-cat.png" style="background-image: url(&quot;images/cook/kitchen-bk.jpg&quot;); background-size: cover;">
-    <div class="cere-in-cover"></div>
+    <div class="spot-in-cover"></div>
     <div class="relative container">
         
         <div class="row">
             <div class="col-md-2 col-xs-10 col-xs-offset-1 col-md-offset-0">
-                <img src="./images/cook/logo.png" class="spot-logo img-responsive" alt="phone mockup">    
+                <img src="./images/cook/logo.png" class="logo img-responsive" alt="phone mockup">    
             </div>
             <div class="col-md-6 col-xs-10 col-xs-offset-1 col-md-offset-0">
                 <h1 class="spot-title hs-line-11 no-transp font-alt mb-20 mb-xs-0">Spotluck</h1>
@@ -33,126 +66,173 @@
 </div>
 
 <div class="container-fluid">
-    <div class="row intro mb-80 mt-80">
+    <div class="row intro mb-80 ">
         <div class="col-md-7 col-md-offset-1 col-xs-offset-1 sub-intro">
             <h2 class="proj-title">Help students to enjoy differnt cuisines</h2>
             <p class="content">
-                The U-M Taiwanese students who just move into Ann Arbor need to cook by themselves. However, they have limited cook knowledge and cooking skills. The students are only capable to cook a small range of cuisine and they cook the same food repeatedly.  Finally they are tired of eating the limit variety of food. They have many constraints and don’t know how to cook “new” cuisine. The problem focus is the intention to cook cuisines they did not do before. Considering their current constraint, I design to support these students to be able to try fresh and new food.
+                The goal of this application is to support students who need to cook by themselves to overcome the limitation and to explore more different cuisines. 
             </p>
-            <div class="row intro mb-80">
-                <div class="col-md-3 col-md-offset-0 sub-intro">
-                    <h2 class="sub-int-title">Project Details</h2>
-                    <div class="sub-int-content">
-                        <p><strong>Client:</strong> <span>Course Project</span></p>
-                        <p><strong>Timespan:</strong> Ongoing</p>
-                        <p><strong>Team Size:</strong> Individual</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-offset-1 sub-intro">
-                    <h2 class="sub-int-title">My Role</h2>
-                    <div class="sub-int-content">
-                        <p>UX/UI Design</p>
-                        <p>Logo Design</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-offset-1 sub-intro">
-                    <h2 class="sub-int-title">Design Skills</h2>
-                    <div class="sub-int-content">
-                        <p>Interview</p>
-                        <p>Sketch</p>
-                        <p>Persona</p>
-                        <p>Storyboard</p>
-                        <p>Wireframe</p>
-                    </div>
-                </div>
-
-                <div class="col-md-1 col-xs-offset-1 sub-intro">
-                    
-                    
-                </div>
-            </div>
         </div>
-        <div class="col-md-offset-0 col-md-3 col-xs-offset-1 sub-intro">
+        <div class="col-md-offset-0 col-md-3 col-xs-offset-1 sub-intro landing-photo">
             <img src="./images/cook/appphone.png" class="img-responsive" alt="phone mockup">    
         </div>
     </div>
-    <div class="row full-section-title">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 text-center">
-            <h2 class="title">DESIGN PROCESS</h2>
-            <!-- <h4 class="content"> How we get there? </h4> -->
+    <div class="row proj-role mb-80">
+        <div class="col-md-3 col-xs-offset-1 col-md-offset-1">
+            <h2 class="sub-int-title">Project Details</h2>
+            <div class="sub-int-content">
+                <p><strong>Client:</strong> <a target="_blank" href="http://tommeloche.com/about-tom-meloche/">Course Project</p>
+                <p><strong>Timespan:</strong> Ongoing</p>
+                <p><strong>Team Size:</strong> Individual</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-offset-1 col-md-offset-0">
+            <h2 class="sub-int-title">My Role</h2>
+            <div class="sub-int-content">
+                <p>UX Designer</p>
+                <p>Logo Design</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-xs-offset-1 col-md-offset-0">
+            <h2 class="sub-int-title">Design Skills</h2>
+            <div class="sub-int-content">
+                <p>Interview</p>
+                <p>Storyboard</p>
+                <p>Wireframe</p>
+                <p>Prototyping</p>
+            </div>
         </div>
     </div>
-
+    <div class="row mt-40" id="challenge">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 fake">
+        </div>
+    </div>
     <div class="row mb-20">
         <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
-            <h2 class="title sub-title">What's the Problem?</h2>
+            <h2 class="title sub-title">What's the Challenge?</h2>
         </div>
     </div>
+    
     <div class="row mb-40">
-        <div class="col-xs-offset-1 col-md-offset-3 col-md-6 col-xs-10">
-            <p class="content text-center">When cooking starts to become part of the students’ lives, they encounter a series of difficulties and challenges. They have following constraints: </p>
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+            <p class="content">The <strong> U-M Taiwanese students </strong> who just move into Ann Arbor need to cook by themselves. However, they have limited cook knowledge and cooking skills. The students are only capable to cook a small range of cuisine and <strong> they cook the same food repeatedly</strong>.</p>
+            <p class="content text-center">They have following constraints: </p>
         </div>
         <!-- <div class="col-xs-offset-1 col-md-offset-1 col-md-5 col-xs-10">
             <img src="./images/cook/fire.jpg" class="img-responsive" alt="cook problem">
         </div> -->
     </div>
-    <div class="row mb-20">
+    <div class="row mb-80">
         <div class="row">
-            <div class="col-xs-offset-1 col-md-offset-1 col-md-2 col-xs-5 problem-img-container">
-                <img src="./images/cook/pot.svg" class="img-responsive" alt="cook problem">    
-                <h4>Kitchen Newbies<h4>
-                <p class="problem-des">Just start to cook and have limited cook knowledge and cooking skills</p>
-            </div>
-            <div class="col-xs-offset-1 col-md-offset-0 col-md-2 col-xs-5 problem-img-container">
-                <img src="./images/cook/cuisine.svg" class="img-responsive" alt="cook problem">    
-                <h4>New Cuisines<h4>
-                <p class="problem-des">Be tired of same food and want to try something new</p>
-            </div>
-            <div class="col-xs-offset-1 col-md-offset-0 col-md-2 col-xs-5 problem-img-container">
-                <img src="./images/cook/taiwan.svg" class="img-responsive" alt="cook problem">
-                <h4>Cuisines from Home<h4>
-                <p class="problem-des">Want to have cuisines as they have in Taiwan </p>
-            </div>
-            <div class="col-xs-offset-1 col-md-offset-0 col-md-2 col-xs-5 problem-img-container">
-                <img src="./images/cook/health.svg" class="img-responsive" alt="cook problem">
-                <h4>Health<h4>
-                <p class="problem-des">Desire to eat healthy</p>
-            </div>
-            <div class="col-xs-offset-1 col-md-offset-0 col-md-2 col-xs-5 problem-img-container">
-                <img src="./images/cook/calendar.svg" class="img-responsive" alt="cook problem">
-                <h4>Busy Schedule<h4>
-                <p class="problem-des">Have limit time on cooking</p> 
+            <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-5 problem-img-container">
+                <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-5 problem-img-container">
+                    <img src="./images/cook/pot.svg" class="img-responsive" alt="cook problem">    
+                    <h4>Kitchen Newbies<h4>
+                    <p class="problem-des">Just start to cook and have limited cook knowledge and cooking skills</p>
+                </div>
+                <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-5 problem-img-container">
+                    <img src="./images/cook/cuisine.svg" class="img-responsive" alt="cook problem">    
+                    <h4>New Cuisines<h4>
+                    <p class="problem-des">Be tired of same food and want to try something new</p>
+                </div>
+                <!-- <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-5 problem-img-container">
+                    <img src="./images/cook/taiwan.svg" class="img-responsive" alt="cook problem">
+                    <h4>Cuisines from Home<h4>
+                    <p class="problem-des">Want to have cuisines as they have in Taiwan </p>
+                </div> -->
+                <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-5 problem-img-container">
+                    <img src="./images/cook/health.svg" class="img-responsive" alt="cook problem">
+                    <h4>Health<h4>
+                    <p class="problem-des">Desire to eat healthy</p>
+                </div>
+                <div class="col-xs-offset-1 col-md-offset-0 col-md-3 col-xs-5 problem-img-container">
+                    <img src="./images/cook/calendar.svg" class="img-responsive" alt="cook problem">
+                    <h4>Busy Schedule<h4>
+                    <p class="problem-des">Have limit time on cooking</p> 
+                </div>
             </div>
         </div>
     </div>
     <div class="row mb-20">
         <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
-            <h2 class="title sub-title">Goal</h2>
+            <h2 class="title sub-title">Competitive Analysis</h2>
+        </div>
+    </div>
+    <div class="row mb-40">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+            <p class="content">
+                The reason why I choose the first three reasons is when students do not how to cook, they’re inclined to search online and learn from the recipes. These online recipes have their features. The first is a common recipe website, which would be the top-three search results with keyword “Recipe.” The second targets at students and the third is particularly customized for Taiwan people. The forth is opposite to previous three. Instead of finding recipe and buying ingredients, users could just get things they need.
+            </p>
+        </div>        
+    </div>
+    <!-- <div class="row mb-80">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+        <table>
+            <tr>
+                <td></td>
+                <td>Strength</td>
+                <td>Weakness</td>
+            </tr>
+            <tr>
+                <th>Cooking</th>
+                <th>
+                    <ul>
+                        <li></li>
+                        It owns a variety of recipes to choose.
+                        It provides the time needed to cook a cuisine, which is a good guide for users to choose recipes.
+                        Users could leave comments about their personal experiences, which makes the recipe more reliable.
+                        The steps of how to cook are organized well
+                        It has “Cooking Guides” to teach users how to cook some specific ingredients
+
+                    </ul>
+                </th>
+            </tr>
+        </table>
+        </div>        
+
+    </div> -->
+
+    <div class="row mb-20">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10">
+            <h2 class="title sub-title">Brainstorm, Sketch, and Storyboard</h2>
         </div>
     </div>
     <div class="row mb-20">
         <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 text-center">
-            <h2 class="title sub-title">Overcome these constraints to cook new cuisines.</h2>
+            <p class="content">I brainstormed and sketches the <strong>16 ideas</strong> and creaed the <strong>8 scenarios</strong>.</p>
         </div>
     </div>
-    <div class="row mb-80">
-        <div class="col-xs-offset-1 col-md-offset-1 col-md-6 col-xs-10">
-            <p class="content">
-                
-            </p>
-        </div>
-        <div class="col-xs-offset-1 col-md-offset-0 col-md-4 col-xs-10">
-            
+    <div class="row mb-20">
+        <div class="col-xs-offset-1 col-md-offset-1 col-md-10 col-xs-10 text-center">
+            <div class="col-xs-offset-1 col-md-offset-0 col-md-4 col-xs-10 text-center">
+                <div class="row">
+                    <img src="./images/cook/sketch/01.jpg" class="img-responsive border" alt="sketch 1">    
+                </div>
+                <div class="row">
+                    <img src="./images/cook/sketch/02.jpg" class="img-responsive border" alt="sketch 1">    
+                </div>
+            </div>
+        
+            <div class="col-xs-offset-1 col-md-offset-0 col-md-4 col-xs-10 text-center">
+                <div class="row">
+                    <img src="./images/cook/sketch/03.jpg" class="img-responsive border" alt="sketch 1">    
+                </div>
+                <div class="row">
+                    <img src="./images/cook/sketch/04.jpg" class="img-responsive border" alt="sketch 1">    
+                </div>
+            </div>
+            <div class="col-xs-offset-1 col-md-offset-0 col-md-4 col-xs-10 text-center">
+                <div class="row">
+                    <img src="./images/cook/sketch/s01.jpg" class="img-responsive border" alt="sketch 1">    
+                </div>
+                <div class="row">
+                    <img src="./images/cook/sketch/s02.jpg" class="img-responsive border" alt="sketch 1">    
+                </div>
+            </div>
         </div>
     </div>
+    
      <div class="row mb-80">
     </div>
-    <div class="row mb-80">
-        <a href="/" class="back">
-            <div class="col-xs-offset-5 col-md-offset-6 img-circle home pos-rel">
-                
-                <i class="fa fa-arrow-left" aria-hidden="true"></i>
-            </div>
-        </a>
-    </div>
+    
 </div>
