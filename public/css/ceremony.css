@@ -13,6 +13,8 @@
 }
 .page-section {
     padding-top: 20%;
+    background-position-y: -200px;
+    background-image: url('../images/cere/ceremony2.jpg');
 }
 
 .spot-title {
@@ -152,6 +154,8 @@
 @media screen and (max-width: 991px) {
     .page-section {
         margin-top: 0px;
+        background-position-y: -100px;
+        background-position-x: -100px;
     }
     .proj-title {
         line-height: 45px;
