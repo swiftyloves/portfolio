@@ -11,6 +11,12 @@
 	width: 114px;
 }
 
+.page-section {
+    padding-top: 20%;
+    background-position-y: -200px;
+    background-image: url('../images/makerspace.jpg');
+}
+
 .spot-title {
 	margin-top: 40px;
     color: #a9003c;
