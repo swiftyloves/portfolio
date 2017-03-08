@@ -5,6 +5,12 @@
 .pos-rel{
     position: relative;
 }
+
+.page-section {
+    padding-top: 20%;
+    background-image: url('../images/alice-cat.png');
+}
+
 .film-in-cover {
     top: 0;
     height: 100%;
