@@ -8,6 +8,12 @@
 }
 /**/
 
+.page-section {
+    padding-top: 20%;
+    background-position-y: -400px;
+    background-image: url('../images/public.jpeg');
+}
+
 .condition {
     border: 1px solid rgba(128,128,128,0.4);
     padding: 10px 20px;
