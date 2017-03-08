@@ -2,6 +2,11 @@
     background-position: center -340px;
 }
 
+.page-section {
+    padding-top: 20%;
+    background-image: url('../images/game/20.jpg');
+}
+
 .pos-rel{
     position: relative;
 }
