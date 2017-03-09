@@ -14,7 +14,7 @@ html, body {
     to {display: block;}
 }
 .self-logo {
-    width: 30px;
+    width: 35px;
     margin: 0 12px 9px 0;
 }
 #navbar {
@@ -182,12 +182,13 @@ html, body {
     font-weight: 300;
     color: #ED5E87;
     text-align: center;
+    font-size: 43px;
 }
 .sub-self-text {
-    font-family: 'Dosis', arial, sans-serif;
-    letter-spacing: 0.2em;
-    color: rgba(128, 128, 128, 0.38);
+    font-family: 'Lato', 'Dosis', arial, sans-serif;
+    color: rgba(128, 128, 128, 0.78);
     text-align: center;
+    font-weight: 300;
 }
 .sub-self-text-des {
     font-family: times, sans-serif;
@@ -228,6 +229,9 @@ html, body {
 .navbar-index a:focus {
     background: transparent !important;
     /*color: white;*/
+}
+.sub-int-content {
+    font-family: 'Lato';
 }
 .sub-int-content li {
     display: inherit;
